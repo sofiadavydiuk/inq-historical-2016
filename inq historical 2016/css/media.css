@@ -1,0 +1,141 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+    h1.logo {
+        display: none;
+    }
+
+    #must {
+        float: none;
+        width: 100%;
+    }
+
+    .nav li {
+        width: 28%;
+        margin-right: 2.9%;
+        display: inline-block;
+
+    }
+
+    #main, #footer, .intro {
+        width: 100%;
+        float: none;
+    }
+
+    .nav {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .nav {
+        background: url(../img/ornament.png) no-repeat 0 -44%;
+    }
+
+    .nav a {
+        font-size: 0.8em;
+    }
+
+    #footer {
+        float: right;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width: 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width: 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width: 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width: 1200px) {
+    .figure {
+        margin-right: 3.117536%;
+        width: 14%;
+    }
+
+    #footer {
+        float: none;
+        width: 22%;
+        margin-left: 56%;
+        clear: both;
+
+    }
+
+    .nav {
+        float: right;
+        text-align: center;
+        margin: 40px 0 2em;
+        width: 65.72%;
+    }
+
+    .nav li {
+        width: 28%;
+        margin-right: 2.9%;
+        display: inline-block;
+
+    }
+
+    h1.logo {
+        float: left;
+    }
+
+    #must {
+        float: none;
+        width: 100%;
+    }
+
+    h1.logo {
+        width: 32%;
+    }
+
+    .nav li {
+        width: 28%;
+    }
+
+    .intro {
+        margin-top: 0px;
+
+    }
+
+    li.first {
+        background: none;
+    }
+
+}

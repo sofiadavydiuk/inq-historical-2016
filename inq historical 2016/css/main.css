@@ -1,0 +1,171 @@
+/**::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}*/
+/* http://meyerweb.com/eric/tools/css/reset/ */
+/* v1.0 | 20080212 */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td { margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent; }
+body { line-height:1; }
+ol,ul { list-style:none; }
+blockquote,q { quotes:none; }
+blockquote:before,blockquote:after,q:before,q:after { content:'';content:none; }
+ins { text-decoration:none; }
+del { text-decoration:line-through; }
+table { border-collapse:collapse;border-spacing:0; }
+
+
+body {
+	font-family: 'Cambo', serif;
+	background: #E4E4E4 url("../img/bg.png");
+    color: rgba(0, 0, 0, 0.82);
+    text-shadow: 0 1px 0 rgba(255,255,255,0.8);
+    -moz-text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+    -webkit-text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+}
+#inner{
+	width: 91.8%;
+	margin: 0 auto;
+}
+h1.logo{
+	display: block;
+	text-align: center;
+	
+	height: 300px;
+	margin-top:30px;
+	background: url(../img/logo-bg.png) no-repeat 50% 0;
+		width:100%;
+}
+h1 a{
+	display: block;
+    padding-top: 115px;
+}
+#page{
+	background:url(../img/rag.png) repeat-x;
+	padding: 2em 0; 
+}
+#must{
+	width:32.9%;
+	float: left;
+}
+#main, #footer,.intro{
+	width:65.72%;
+	float: right;
+}
+.nav{
+	text-align: center;
+	margin: 40px 0 2em;
+}
+.nav li{
+	width: 85%;
+    margin-right: 2.9%;
+    display: block;
+    
+}
+i{
+	display: block;
+	font-style: normal;
+    font-size: 0.8em;
+    font-weight: normal;
+    text-align: center;
+    margin-top: 5px;
+
+}
+.nav li a{
+	background: url(../img/ornament.png) no-repeat 0 100%;
+	font-family: 'BioRhyme', serif;
+	padding: 15px 0 38px 0;
+	font-weight: bold;
+}
+.nav li a:hover{
+	background-position: 50% 100%;
+}
+.intro h2{
+	font-size: 2em;
+    margin-bottom: 21px;
+    text-align: center;
+}
+.intro p{
+	text-indent: 1.5em;
+	line-height: 1.2em;
+}
+.intro {
+	margin-top: 44px;
+}
+a:hover {
+    color: #DF3030;
+}
+a{
+	color: #890101;
+    text-decoration: none;
+    display: block;
+}
+#main h2{
+	display: block;
+    text-align: center;
+    font-size: 16px;
+    background: url(../img/ornament.png) no-repeat 0 50%;
+    margin: 35px 0;
+    font-size: 1.3em;
+
+}
+#main b{
+	background: url(../img/bg.png);
+}
+.figure{
+	float: left;
+    display: block;
+    width: 31%;
+    text-align: center;
+    margin: 0 2.2% 0.5em 0;
+    text-align: center;
+    width: 31.11643%;
+}
+.figure a{
+	font-weight: bold;
+}
+.figure img{
+	-webkit-box-shadow: 0px 2px 5px rgba(0,0,0,.6);
+	box-shadow: 0px 2px 5px rgba(0,0,0,.6);
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+img{
+	max-width: 100%;
+}
+ul .winter{
+	margin-right: 0;
+}
+#footer{
+	background: url(../img/ornament.png) 50% 0 no-repeat;
+	padding: 40px 0 20px;
+	text-align: center;
+	font-size: 12px;
+}
+#footer a{
+	display: inline;
+}
+li.first{
+	 background: url(../img/ornament.png) no-repeat 0 -44%;
+}
+
+.section:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+
